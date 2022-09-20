@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(72, 69, 66);
+}
+
+label {
+  font-size: larger;
+}
+input {
+  height: 40px;
+  font-size: larger;
+  width: 300px;
+  border-radius: 5px;
+}
+
+button {
+  font-size: large;
+  background-color: #fe4066;
+  width: 300px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 0px;
+  color: white;
+  border-radius: 22px;
+}
+
+.input-container {
+  padding: 10px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  /* align-items: center; */
+}
+
+.sign-div {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.sign-up-div {
+  height: 500px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: small;
+  padding-left: 10px;
+}
+
+span {
+  color: #fe4066;
+  text-decoration: none;
+}
+
+.message {
+  color: #fe4066;
+  font-weight: bold;
+  font-size: large;
+}
+
+.dashboard-main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard-message {
+  color: aliceblue;
+  text-align: center;
+}
